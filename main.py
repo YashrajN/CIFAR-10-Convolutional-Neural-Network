@@ -3,8 +3,6 @@ from tensorflow import keras
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Your working code here
-
 # Load the dataset
 (train_images, train_labels), (test_images, test_labels) = keras.datasets.cifar10.load_data()
 
